@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://Mark123:Mq85772245@cluster0-qttg5.mongodb.net/InnerArt?retryWrites=true&w=majority",
+	"jwtSecret": "secret"
+}
