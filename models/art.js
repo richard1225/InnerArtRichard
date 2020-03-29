@@ -7,7 +7,7 @@ const ArtSchema = mongoose.Schema({
 	},
 	title: {
 		type: String,
-		required: true
+		default: 'undefined'
 	},
 	date: {
 		type: Date,
