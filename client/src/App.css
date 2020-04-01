@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import '../node_modules/react-slideshow-image/lib/components/slideshow/general.css';
+
+.form-rounded {
+  border-radius: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  display: inline-block;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style: none;
+  padding-right: 20px;
+}
+ul li {
+  margin: 8px;
+}
+ul h4 {
+  font-size: 16px;
+
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.each-slide > div {
+  background-size: 100% 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-slideshow-container + div.indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.react-slideshow-container + div.indicators > div {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  z-index: 11;
 }
