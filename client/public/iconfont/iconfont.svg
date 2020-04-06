@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="google" unicode="&#59179;" d="M522.208 457.184V281.6h290.4c-11.808-75.392-87.808-220.8-290.4-220.8C347.392 60.8 204.8 205.6 204.8 384s142.592 323.2 317.408 323.2c99.392 0 166.016-42.4 204-79.008l139.008 133.792C776 845.568 660.416 896 522.208 896c-283.008 0-512-228.992-512-512s228.992-512 512-512c295.392 0 491.616 207.808 491.616 500.192 0 33.6-3.616 59.2-8 84.8l-483.616 0.192z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="facebook" unicode="&#59162;" d="M608 704h160V896h-160c-123.52 0-224-100.48-224-224v-96H256v-192h128v-512h192V384h160l32 192h-192V672c0 17.344 14.656 32 32 32z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

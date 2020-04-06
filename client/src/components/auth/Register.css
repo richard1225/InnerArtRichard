@@ -1,0 +1,11 @@
+.register-wrapper {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.register-wrapper .ant-form-item .ant-form-item-control-input-content {
+  width: 28rem;
+}
+.login-form-button {
+  width: 100%;
+}

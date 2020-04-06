@@ -44,9 +44,9 @@ const style = {
 }
 const Slideshow = () => {
   return (
-    <div className='slide-container'>
+    <div className="slide-container">
       <Slide {...properties}>
-        <div className='each-slide'>
+        <div className="each-slide">
           <div style={{ height: 500, backgroundImage: 'url(' + sample1 + ')' }}>
             <div style={style.div}>
               <h5 style={style.quote}>{quote}</h5>
@@ -56,7 +56,7 @@ const Slideshow = () => {
           </div>
         </div>
 
-        <div className='each-slide'>
+        <div className="each-slide">
           <div style={{ height: 500, backgroundImage: 'url(' + sample2 + ')' }}>
             <div style={style.div}>
               <h5 style={style.quote}>{quote}</h5>
@@ -66,7 +66,7 @@ const Slideshow = () => {
           </div>
         </div>
 
-        <div className='each-slide'>
+        <div className="each-slide">
           <div style={{ height: 500, backgroundImage: 'url(' + sample3 + ')' }}>
             <div style={style.div}>
               <h5 style={style.quote}>{quote}</h5>

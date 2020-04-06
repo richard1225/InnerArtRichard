@@ -1,0 +1,23 @@
+{
+  "id": "1737276",
+  "name": "innerArt",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12579301",
+      "name": "google",
+      "font_class": "google",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "12579250",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e71a",
+      "unicode_decimal": 59162
+    }
+  ]
+}
