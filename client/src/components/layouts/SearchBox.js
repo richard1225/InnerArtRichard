@@ -8,14 +8,14 @@ const SearchBox = () => {
     <form>
       <input
         style={{ width: '450px', marginBottom: '20px' }}
-        type='text'
-        class='form-control form-rounded'
-        placeholder='Search ...'
+        type="text"
+        className="form-control form-rounded"
+        placeholder="Search ..."
         value={input}
         onChange={handleSubmit}
       />
-      <button type='submit'>
-        <i class='fas fa-search' />
+      <button type="submit">
+        <i className="fas fa-search" />
       </button>
     </form>
   )

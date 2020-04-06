@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 const Navbar = ({ title, icon }) => {
   return (
-    <div className='navbar bg-danger' style={{ height: 60 }}>
+    <div className="navbar bg-danger" style={{ height: 60 }}>
       <h3 style={{ marginLeft: '20px', marginBottom: '20px', color: 'white' }}>
         <i className={icon} />
         <b style={{ marginLeft: '20px', marginBottom: '20px' }}>{title}</b>
@@ -15,14 +15,14 @@ const Navbar = ({ title, icon }) => {
 
       <ul>
         <li>
-          <Link to='/'>
+          <Link to="/register">
             {' '}
             <h4>Register</h4>
           </Link>
         </li>
         <br></br>
         <li>
-          <Link to='/about'>
+          <Link to="/login">
             {' '}
             <h4>Login</h4>
           </Link>
