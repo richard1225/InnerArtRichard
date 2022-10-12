@@ -25,7 +25,7 @@
     "mongoose": "^5.9.4",
     "multer": "^1.4.2",
     "multer-gridfs-storage": "^4.0.2",
-    "node-adwords": "^201809.0.2",
+    "node-adwords": "^201809.1.0",
     "react-bootstrap": "^1.0.0"
   }
 }
